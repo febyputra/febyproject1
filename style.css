@@ -52,6 +52,7 @@ img {
   max-width: 100%;
   position: relative;
   margin: auto;
+  z-index: -999;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -132,7 +133,7 @@ button, input[type = "submit"] {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1320px;
     padding: 0 1rem;
     margin: 0 auto;
 }
@@ -141,13 +142,14 @@ button, input[type = "submit"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -90px;
 }
 
 .header-title h1 {
     font-size: 2.8rem;
     letter-spacing: 2px;
     animation: bounce-in-top 1.1s both;
+    margin-top: -70px;
+    text-align: center;
 }
 
 @keyframes bounce-in-top {
