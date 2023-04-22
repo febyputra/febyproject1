@@ -144,12 +144,39 @@ button, input[type = "submit"] {
     justify-content: center;
 }
 
+.header-title {
+    margin-top: -370px;
+}
+
 .header-title h1 {
     font-size: 2.8rem;
     letter-spacing: 2px;
     animation: bounce-in-top 1.1s both;
-    margin-top: -70px;
     text-align: center;
+}
+
+.header-title p {
+    margin-top: 15px;
+}
+
+.header-form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    border-radius: 0.2rem;
+    margin-top: 10px;
+}
+
+.header-form h2 {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.header-form .flex1 {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes bounce-in-top {
