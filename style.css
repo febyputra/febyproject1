@@ -194,13 +194,14 @@ button, input[type = "submit"] {
 
 .header-title p {
     margin-top: 15px;
+    font-weight: 500;
 }
 
 .header-form {
     background: rgba(0, 0, 0, 0.5);
     padding: 3rem;
     border-radius: 0.2rem;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .header-form h2 {
@@ -217,7 +218,6 @@ button, input[type = "submit"] {
 }
 
 .header-form form {
-    flex-direction: column;
     margin-top: 1.8rem;
 }
 
@@ -233,6 +233,14 @@ button, input[type = "submit"] {
     color: #fff;
 }
 
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.header-form .btn {
+    margin-top: 0.8rem;
+}
+
 .text {
     font-weight: 400;
     opacity: 0.9;
@@ -243,8 +251,8 @@ button, input[type = "submit"] {
 .form-control {
     width: 100%;
     margin: 0.6rem 0;
-    max-width: 500px;
     border: 1px solid white;
+    border-radius: 0.2rem;
     padding: 0.3rem;
     font-size: 1rem;
     color: #fff;
@@ -252,12 +260,20 @@ button, input[type = "submit"] {
 }
 
 .btn {
-    padding: 0.7rem 2.4rem;
+    padding: 0.5rem 1.8rem;
     border-radius: 0.2rem;
     font-weight: 600;
     background-color: cyan;
     color: #fff;
     border: 1px solid cyan;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transition: all 0.5s;
 }
 
 
