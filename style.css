@@ -308,4 +308,9 @@ button, input[type = "submit"] {
     nav #toggle:checked ~ .menu {
         height: 100%;
     }
+
+    .header-form {
+        padding: 2px;
+        margin-top: 50px;
+    }
 }
